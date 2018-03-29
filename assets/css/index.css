@@ -8,13 +8,15 @@ h1 {
   color: #323232;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 45px;
+  padding-top: 80px;
 }
 h2 {
   font-family: PT Sans Narrow;
   font-size: 1.5em;
   color: #00897f;
   font-weight: bold;
-  padding: 20px;
+  padding: 25px;
   text-transform: uppercase;
 }
 h3 {
@@ -22,12 +24,14 @@ h3 {
   font-size: 1em;
   line-height: 2em;
   color: #323232;
+  padding-bottom: 80px;
 }
 p {
   font-family: PT Serif Regular;
   font-size: .875em;
   line-height: 1.75em;
   color: #323232;
+  padding: 30px;
 }
 a {
   font-family: PT serif;
@@ -51,6 +55,7 @@ footer {
 .greybackground {
   background-color: lightgrey;
   text-align: center;
+  padding-bottom: 80px;
 }
 .splash img {
   display: block;
@@ -67,6 +72,7 @@ footer {
   background-size: cover;
   height: 125px;
   width: auto;
+  padding-top: 80px;
 }
 
 /* On devices wider than 660px */
