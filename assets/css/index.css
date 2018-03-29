@@ -1,17 +1,21 @@
 body {
   margin: 0;
+  max-width: 660px;
 }
 h1 {
   font-family: PT Sans Narrow;
   font-size: 1.875em;
   color: #323232;
   font-weight: bold;
+  text-align: center;
 }
 h2 {
   font-family: PT Sans Narrow;
   font-size: 1.5em;
   color: #00897f;
   font-weight: bold;
+  padding: 20px;
+  text-transform: uppercase;
 }
 h3 {
   font-family: PT Serif Regular;
@@ -42,6 +46,27 @@ footer {
   text-align: center;
   color: white;
   background-color: #00897f;
+  height: 125px;
+}
+.greybackground {
+  background-color: lightgrey;
+  text-align: center;
+}
+.splash img {
+  display: block;
+  margin: auto;
+}
+.splash {
+  width: 100%;
+  height: auto;
+  background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero-mobile.jpg);
+  background-size: cover;
+}
+.map {
+  background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
+  background-size: cover;
+  height: 125px;
+  width: auto;
 }
 
 /* On devices wider than 660px */
