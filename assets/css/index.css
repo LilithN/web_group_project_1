@@ -74,6 +74,11 @@ footer {
   width: auto;
   padding-top: 80px;
 }
+.suitcat {
+  border-radius: 50%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
