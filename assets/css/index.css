@@ -1,61 +1,64 @@
 body {
   margin: 0;
-  max-width: 660px;
+}
+.pagetitle {
+  font-family: PT Sans Narrow;
+  font-size: 0.9em;
+  color: #323232;
+  text-align: center;
+  padding: 23px;
+  font-weight: bolder;
 }
 h1 {
-  font-family: PT Sans Narrow;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.875em;
   color: #323232;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
-  padding-bottom: 45px;
-  padding-top: 80px;
+  letter-spacing: -2px;
 }
 h2 {
   font-family: PT Sans Narrow;
   font-size: 1.5em;
   color: #00897f;
   font-weight: bold;
-  padding: 25px;
   text-transform: uppercase;
+  text-align: center;
 }
 h3 {
-  font-family: PT Serif Regular;
+  font-family: PT Serif;
   font-size: 1em;
-  line-height: 2em;
   color: #323232;
-  padding-bottom: 80px;
+  margin-left: 1em;
+  text-transform: uppercase;
 }
 p {
-  font-family: PT Serif Regular;
+  font-family: PT Sans;
   font-size: .875em;
-  line-height: 1.75em;
+  line-height: 2em;
   color: #323232;
-  padding: 30px;
+  margin: 36px;
 }
 a {
   font-family: PT serif;
   font-size: 1em;
   color: #f26522;
   font-weight: bold;
-}
-nav .h1 {
-  font-family: PT Sans Narrow;
-  font-size: 1.5em;
-  color: #323232;
-  font-weight: bold;
-  text-align: center;
+  display: inline-block;
 }
 footer {
+  background-color: #00897f;
+}
+.foot {
   text-align: center;
   color: white;
-  background-color: #00897f;
-  height: 125px;
+  font-family: PT Sans Narrow;
+  padding: 48px;
+  font-size: 1.25em
+  font-weight: bold;
 }
 .greybackground {
   background-color: lightgrey;
-  text-align: center;
-  padding-bottom: 80px;
 }
 .splash img {
   display: block;
@@ -70,14 +73,17 @@ footer {
 .map {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
   background-size: cover;
-  height: 125px;
+  height: 280px;
   width: auto;
-  padding-top: 80px;
+  background-position: center;
 }
 .suitcat {
   border-radius: 50%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin: 45px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 /* On devices wider than 660px */
