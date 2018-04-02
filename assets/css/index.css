@@ -40,6 +40,9 @@ li {
   color: #323232;
   margin-left: 1em;
 }
+ul {
+  list-style-type: none;
+}
 .hourscontact {
   font-weight: bold;
   text-transform: uppercase;
