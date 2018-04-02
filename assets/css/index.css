@@ -5,9 +5,11 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 0.9em;
   color: #323232;
-  text-align: center;
-  padding: 23px;
   font-weight: bolder;
+}
+nav {
+    padding: 23px;
+    text-align: center;
 }
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -48,26 +50,22 @@ a {
 }
 footer {
   background-color: #00897f;
+  text-align: center;
+  padding: 48px;
 }
 .foot {
-  text-align: center;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
-  padding: 48px;
   font-size: 1.25em
   font-weight: bold;
 }
 .greybackground {
   background-color: lightgrey;
 }
-.splash img {
-  display: block;
-  margin: auto;
-}
 .splash {
-  width: 100%;
-  height: auto;
-  background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero-mobile.jpg);
+  background-position: center;
+  height: 280px;
+  background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
   background-size: cover;
 }
 .map {
