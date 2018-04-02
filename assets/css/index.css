@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .pagetitle {
-  font-family: PT Sans Narrow;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 0.9em;
   color: #323232;
   text-align: center;
@@ -10,7 +10,7 @@ body {
   font-weight: bolder;
 }
 h1 {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.875em;
   color: #323232;
   font-weight: bolder;
@@ -18,7 +18,7 @@ h1 {
   letter-spacing: -2px;
 }
 h2 {
-  font-family: "PT Sans Narrow";
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
   color: #00897f;
   font-weight: bold;
@@ -26,21 +26,21 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-family: PT Serif;
+  font-family: 'PT Serif', serif;
   font-size: 1em;
   color: #323232;
   margin-left: 1em;
   text-transform: uppercase;
 }
 p {
-  font-family: PT Sans;
+  font-family: 'PT Serif', serif;
   font-size: .875em;
   line-height: 2em;
   color: #323232;
   margin: 36px;
 }
 a {
-  font-family: PT serif;
+  font-family: 'PT Serif', serif;
   font-size: 1em;
   color: #f26522;
   font-weight: bold;
@@ -52,7 +52,7 @@ footer {
 .foot {
   text-align: center;
   color: white;
-  font-family: PT Sans Narrow;
+  font-family: 'PT Sans Narrow', sans-serif;
   padding: 48px;
   font-size: 1.25em
   font-weight: bold;
