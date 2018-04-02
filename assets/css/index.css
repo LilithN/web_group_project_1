@@ -41,7 +41,8 @@ li {
   margin-left: 1em;
 }
 .hourscontact {
-
+  font-weight: bold;
+  text-transform: uppercase;
 }
 p {
   font-family: 'PT Serif', serif;
