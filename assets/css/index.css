@@ -17,7 +17,6 @@ h1 {
   color: #323232;
   font-weight: bolder;
   text-align: center;
-  letter-spacing: -2px;
 }
 h2 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -27,13 +26,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
 }
-h3 {
-  font-family: 'PT Serif', serif;
-  font-size: 1em;
-  color: #323232;
-  margin-left: 1em;
-  text-transform: uppercase;
-}
+
 li {
   font-family: 'PT Serif', serif;
   font-size: 1em;
