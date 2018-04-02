@@ -47,6 +47,11 @@ ul {
   font-weight: bold;
   text-transform: uppercase;
 }
+.address {
+  vertical-align: top;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 p {
   font-family: 'PT Serif', serif;
   font-size: .875em;
