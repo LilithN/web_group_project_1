@@ -3,12 +3,12 @@ body {
 }
 .pagetitle {
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 0.9em;
+  font-size: 1.5em;
   color: #323232;
   font-weight: bolder;
 }
 nav {
-    padding: 23px;
+    padding: 1.5em;
     text-align: center;
 }
 h1 {
@@ -17,6 +17,7 @@ h1 {
   color: #323232;
   font-weight: bolder;
   text-align: center;
+  margin-top: 1.2em;
 }
 h2 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -48,9 +49,10 @@ ul {
 p {
   font-family: 'PT Serif', serif;
   font-size: .875em;
-  line-height: 2em;
+  line-height: 1.75em;
   color: #323232;
-  margin: 36px;
+  margin: 0 2em 2em 2em;
+  word-spacing: 0.1em;
 }
 a {
   font-family: 'PT Serif', serif;
@@ -62,35 +64,35 @@ a {
 footer {
   background-color: #00897f;
   text-align: center;
-  padding: 48px;
+  padding: 2em;
 }
 .foot {
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.25em
-  font-weight: bold;
+  font-weight: bolder;
 }
 .greybackground {
   background-color: lightgrey;
 }
 .splash {
   background-position: center;
-  height: 280px;
+  height: 17.5em;
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
   background-size: cover;
 }
 .map {
   background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
   background-size: cover;
-  height: 280px;
+  height: 17.5em;
   width: auto;
   background-position: center;
 }
 .suitcat {
-  width: 250px;
-  height: 250px;
+  width: 15.625em;
+  height: 15.625em;
   border-radius: 50%;
-  margin: 45px auto;
+  margin: 2.8125em auto;
 
 }
 .main {
