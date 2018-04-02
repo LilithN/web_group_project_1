@@ -104,6 +104,9 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.getintouch {
+  display: none;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
