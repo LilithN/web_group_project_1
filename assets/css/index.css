@@ -34,6 +34,15 @@ h3 {
   margin-left: 1em;
   text-transform: uppercase;
 }
+li {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  color: #323232;
+  margin-left: 1em;
+}
+.hourscontact {
+
+}
 p {
   font-family: 'PT Serif', serif;
   font-size: .875em;
