@@ -126,6 +126,10 @@ footer {
   display: flex;
   flex-direction: row;
 }
+.contactbox {
+  display: flex;
+  flex-direction: column;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
@@ -207,11 +211,14 @@ footer {
     border-radius: 50%;
     margin: 2.8125em auto;
   }
-  .getintouchbackground {
-    background-color: lightgrey
+  .intouchbackground {
+    background-color: lightgrey;
+    padding: 7px 0 64px 0;
   }
   .getintouch {
-    display: inline-block;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
   }
   .contactbox {
     display: flex;
@@ -220,11 +227,21 @@ footer {
     justify-content: space-between;
     margin: 0 330px 0 330px;
   }
-
   .contactbackground {
     background-color: white;
     width: 520px;
   }
-
+  .map {
+    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
+    width: 100%;
+    position: relative;
+    height: 374px;
+    background-size: cover;
+  }
+  footer {
+    background-color: #00897f;
+    text-align: center;
+    padding: 4em;
+  }
 
 }
