@@ -132,6 +132,134 @@ nav ul {
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+  body {
+    margin: 0;
+  }
+  nav {
+      margin: -0.1875em 0.75em -1.75em 0.4375;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav a {
+    color: #323232;
+    font-family: 'PT Sans', sans-serif;
+    font-size: .9em;
+  }
+  nav li {
+    padding-right: 1.25em;
+  }
+  .pagetitle {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    color: #323232;
+    font-weight: bolder;
+  }
+  .splash {
+    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
+    width: 100%;
+    position: relative;
+    height: 24.125em;
+    background-size: cover;
+  }
+  .main {
+    margin: 0 2.625em 0 2.625em;
+  }
+  h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.875em;
+    color: #323232;
+    font-weight: bolder;
+    text-align: center;
+
+  }
+  p {
+    font-family: 'PT Serif', serif;
+    font-size: .875em;
+    line-height: 1.75em;
+    color: #323232;
+    margin: 0 2em 2em 2em;
+    word-spacing: 0.1em;
+  }
+  .katmavisbox {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+  .katmavis {
+    background-color: lightgrey;
+    width: 19.5em;
+  }
+.cats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  .fancycat {
+    display: none;
+  }
+  .flowercat {
+    display: inline-block;
+    width: 15.625em;
+    height: 15.625em;
+    border-radius: 50%;
+    margin: 2.8125em auto;
+  }
+  .suitcat {
+    width: 15.625em;
+    height: 15.625em;
+    border-radius: 50%;
+    margin: 2.8125em auto;
+  }
+  .intouchbackground {
+    background-color: lightgrey;
+    padding: 0.4375em 0 4em 0;
+  }
+  .getintouch {
+    display: block;
+    text-align: center;
+    padding-bottom: 1.25em;
+  }
+  .contactbox {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0 2.625em 0 2.625em;
+  }
+  .contactbackground {
+    background-color: white;
+    width: 19.5em;
+  }
+  .map {
+    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
+    width: 100%;
+    position: relative;
+    height: 23.375em;
+    background-size: cover;
+  }
+  footer {
+    background-color: #00897f;
+    text-align: center;
+    padding: 3em;
+  }
+  .foot {
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25em
+    font-weight: bolder;
+  }
+  a:hover {
+    color: lightgrey;
+  }
+  a:link {
+    text-decoration: none;
+  }
 }
 
 /* On devices wider than 940px */
@@ -255,6 +383,12 @@ nav ul {
     background-color: #00897f;
     text-align: center;
     padding: 4em;
+  }
+  .foot {
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25em
+    font-weight: bolder;
   }
   a:hover {
     color: lightgrey;
