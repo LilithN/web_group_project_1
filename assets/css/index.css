@@ -154,7 +154,7 @@ footer {
     background-size: cover;
   }
   .main {
-    margin: 330px;
+    margin: 0 330px 0 330px;
   }
   h1 {
     font-family: 'PT Sans Narrow', sans-serif;
@@ -162,7 +162,7 @@ footer {
     color: #323232;
     font-weight: bolder;
     text-align: center;
-    margin-top: -9.8em;
+
   }
   p {
     font-family: 'PT Serif', serif;
@@ -185,6 +185,7 @@ footer {
 .cats {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
   .fancycat {
     display: inline-block;
@@ -205,6 +206,24 @@ footer {
     height: 15.625em;
     border-radius: 50%;
     margin: 2.8125em auto;
+  }
+  .getintouchbackground {
+    background-color: lightgrey
+  }
+  .getintouch {
+    display: inline-block;
+  }
+  .contactbox {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0 330px 0 330px;
+  }
+
+  .contactbackground {
+    background-color: white;
+    width: 520px;
   }
 
 
