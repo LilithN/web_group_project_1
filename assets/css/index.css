@@ -65,7 +65,7 @@ footer {
 .foot {
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1.25em
+  font-size: 1.25em;
   font-weight: bolder;
 }
 .katmavis {
@@ -251,7 +251,7 @@ nav ul {
   .foot {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1.25em
+    font-size: 1.25em;
     font-weight: bolder;
   }
   a:hover {
@@ -387,7 +387,7 @@ nav ul {
   .foot {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1.25em
+    font-size: 1.25em;
     font-weight: bolder;
   }
   a:hover {
