@@ -36,7 +36,7 @@ li {
   font-family: 'PT Serif', serif;
   font-size: 1em;
   color: #323232;
-  padding-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 ul {
   list-style-type: none;
