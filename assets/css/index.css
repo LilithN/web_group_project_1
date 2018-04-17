@@ -8,8 +8,12 @@ body {
   font-weight: bolder;
 }
 nav {
-    padding: 1.5em;
+    max-width: 660px;
+    margin: 0 auto;
     text-align: center;
+    height: 80px;
+    line-height: 4.75em;
+
 }
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -268,7 +272,8 @@ nav ul {
     margin: 0;
   }
   nav {
-      margin: -0.1875em 0.75em -1.75em 0.4375;
+      max-width: 1720px;
+      margin: auto;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
