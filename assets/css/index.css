@@ -280,6 +280,7 @@ nav ul {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      padding-left: 20px;
   }
   nav ul {
     display: flex;
@@ -307,7 +308,8 @@ nav ul {
     background-size: cover;
   }
   .main {
-    margin: 0 20.625em 0 20.625em;
+    max-width: 1141px;
+    margin: 0 auto;
   }
   h1 {
     font-family: 'PT Sans Narrow', sans-serif;
@@ -322,7 +324,7 @@ nav ul {
     font-size: .875em;
     line-height: 1.75em;
     color: #323232;
-    margin: 0 2em 2em 2em;
+    margin-bottom: 40px;
     word-spacing: 0.1em;
   }
   .katmavisbox {
@@ -362,12 +364,14 @@ nav ul {
   }
   .intouchbackground {
     background-color: lightgrey;
-    padding: 0.4375em 0 4em 0;
+    max-width: 1720px;
+    margin: auto;
   }
   .getintouch {
     display: block;
     text-align: center;
-    padding-bottom: 1.25em;
+    padding: 0;
+    margin: 10px;
   }
   .contactbox {
     display: flex;
