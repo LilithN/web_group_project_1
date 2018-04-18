@@ -11,7 +11,7 @@ nav {
     max-width: 660px;
     margin: 0 auto;
     text-align: center;
-    height: 80px;
+    height: 5em;
     line-height: 4.75em;
 
 }
@@ -164,7 +164,7 @@ nav ul {
     font-size: 1.5em;
     color: #323232;
     font-weight: bolder;
-    padding-left: 20px;
+    padding-left: 1.25em;
   }
   .splash {
     background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
@@ -228,12 +228,12 @@ nav ul {
     background-color: lightgrey;
     max-width: 940px;
     margin: auto;
-    padding: 40px;
+    padding: 2.5em;
   }
   .getintouch {
     display: block;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     margin-top: 0;
   }
   .contactbox {
@@ -285,7 +285,7 @@ nav ul {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      padding-left: 20px;
+      padding-left: 1.25em;
   }
   nav ul {
     display: flex;
@@ -329,7 +329,7 @@ nav ul {
     font-size: .875em;
     line-height: 1.75em;
     color: #323232;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
     word-spacing: 0.1em;
   }
   .katmavisbox {
@@ -376,7 +376,7 @@ nav ul {
     display: block;
     text-align: center;
     padding: 0;
-    margin: 10px;
+    margin: 0.625em;
   }
   .contactbox {
     display: flex;
