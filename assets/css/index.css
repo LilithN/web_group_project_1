@@ -378,7 +378,8 @@ nav ul {
     flex-direction: row;
     align-content: space-between;
     justify-content: space-between;
-    margin: 0 20.625em 0 20.625em;
+    max-width: 1140px;
+    margin: 0 auto;
   }
   .contactbackground {
     background-color: white;
