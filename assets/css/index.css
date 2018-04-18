@@ -164,6 +164,7 @@ nav ul {
     font-size: 1.5em;
     color: #323232;
     font-weight: bolder;
+    padding-left: 20px;
   }
   .splash {
     background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
@@ -225,29 +226,33 @@ nav ul {
   }
   .intouchbackground {
     background-color: lightgrey;
-    padding: 0.4375em 0 4em 0;
+    max-width: 940px;
+    margin: auto;
+    padding: 40px;
   }
   .getintouch {
     display: block;
     text-align: center;
-    padding-bottom: 1.25em;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
   .contactbox {
     display: flex;
     flex-direction: row;
     align-content: space-between;
     justify-content: space-between;
-    margin: 0 2.625em 0 2.625em;
+    max-width: 940px;
+    margin: 0 auto;
   }
   .contactbackground {
     background-color: white;
-    width: 19.5em;
+    width: 17.5em;
   }
   .map {
     background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
     width: 100%;
     position: relative;
-    height: 23.375em;
+    height: 17.5em;
     background-size: cover;
   }
   footer {
