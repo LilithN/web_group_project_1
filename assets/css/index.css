@@ -98,12 +98,12 @@ footer {
 .splash {
   background-position: center;
   height: 15.5em;
-  background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
+  background-image: url(../images/kats-hero.jpg);
   background-size: cover;
 }
 
 .map {
-  background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
+  background-image: url(../images/kats-map.jpg);
   background-size: cover;
   height: 17.5em;
   width: auto;
@@ -189,7 +189,7 @@ nav ul {
     padding-left: 1.25em;
   }
   .splash {
-    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
+    background-image: url(../images/kats-hero.jpg);
     width: 100%;
     position: relative;
     height: 24.125em;
@@ -270,7 +270,7 @@ nav ul {
     width: 17.5em;
   }
   .map {
-    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
+    background-image: url(../images/kats-map.jpg);
     width: 100%;
     position: relative;
     height: 17.5em;
@@ -328,7 +328,7 @@ nav ul {
     font-weight: bolder;
   }
   .splash {
-    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-hero.jpg);
+    background-image: url(../images/kats-hero.jpg);
     width: 100%;
     position: relative;
     height: 33.125em;
@@ -412,7 +412,7 @@ nav ul {
     width: 32.5em;
   }
   .map {
-    background-image: url(https://raw.githubusercontent.com/LilithN/web_group_project_1/master/assets/images/kats-map.jpg);
+    background-image: url(../images/kats-map.jpg);
     width: 100%;
     position: relative;
     height: 23.375em;
